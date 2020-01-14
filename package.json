@@ -1,0 +1,34 @@
+{
+  "name": "html-webpack-plugin-layout-2",
+  "version": "1.0.0",
+  "description": "Use a common layout wrapper for multiple templates",
+  "sideEffects": [
+    "./src/pages/about/entry.js",
+    "./src/pages/index/entry.js"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dev": "webpack  --verbose --display-error-details --colors --mode development",
+    "prod": "webpack  --verbose --display-error-details --colors --mode production"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "ejs-loader": "^0.3.5",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "jest": "^24.9.0",
+    "jest-junit": "^10.0.0",
+    "nodemon": "1.18.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "keywords": []
+}
