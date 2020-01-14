@@ -5,6 +5,8 @@
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 
+<!-- Make sure to set the modules option to false if you are using Babel preset env plugin. By default, Babel rewrites modules to use CommonJS, which won’t tree-shake. -->
+<!-- // modules:false is default when using babel-loader -->
 <body style="background:orange">
   <%= header%>
   <%= breadcrumb%>
